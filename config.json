@@ -1,0 +1,8 @@
+{
+	"input_type": "serial",
+	"file": "data.txt",
+	"port": "COM5",
+
+	"output": "output_data.txt",
+	"logging": "logging.DEBUG"
+}

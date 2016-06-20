@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat config.json
+
+python py/main.py
