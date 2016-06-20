@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Medyas</title>
+
+    <link rel="stylesheet" href="css/materialize.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+
+    <script language="javascript" type="text/javascript" src="build/jquery-1.12.3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="build/three.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/tween.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/controls/OrbitControls.js"></script>
+    <script language="javascript" type="text/javascript" src="js/BlendCharacter.js"></script>
+    <script language="javascript" type="text/javascript" src="js/loaders/OBJLoader.js"></script>
+    <script language="javascript" type="text/javascript" src="js/materialize.min.js"></script>
+    <script language="javascript" type="text/javascript" src="websocket.js"></script>
+    <script language="javascript" type="text/javascript" src="main.js"></script>
+</head>
+<body class="black-text">
+<nav>
+    <div class="nav-wrapper light-blue lighten-3">
+        <div class="row">
+            <div class="col s6">
+                <ul class="tabs">
+                    <li class="tab">
+                        <a class="active" href="#container">
+                            Visual view
+                        </a>
+                    </li>
+                    <li class="tab">
+                        <a href="#table_view">
+                            Table view
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s3">
+                <a href="#" class="brand-logo right">Medyas</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="row">
+    <div id="container" class="col s12" style="width: 100%; height: 100%;"></div>
+    <div id="table_view" class="col s12">
+        <h1>Real time data view</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Pressure point</th>
+								<th>Values</th>
+            </tr>
+            </thead>
+            <tbody>
+							<tr><td>1</td>	<td id="fsr1"></td>	</tr>
+							<tr><td>2</td>	<td id="fsr2"></td>	</tr>
+							<tr><td>3</td>	<td id="fsr3"></td>	</tr>
+							<tr><td>4</td>	<td id="fsr4"></td>	</tr>
+							<tr><td>5</td>	<td id="fsr5"></td>	</tr>
+							<tr><td>6</td>	<td id="fsr6"></td>	</tr>
+							<tr><td>7</td>	<td id="fsr7"></td>	</tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

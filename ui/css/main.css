@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	font-family:Monospace, sans-serif;
+	font-size:18px;
+	text-align:center;
+
+	background-color: #fff;
+	margin: 0;
+	overflow: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+.strong {
+	background-color:red;
+}
+.medium {
+	background-color: yellow;
+}
+.light {
+	background-color: #4ce600;
+}
+.very-light {
+	background-color: #ddffcc;
+}
